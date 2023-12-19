@@ -16,7 +16,7 @@
     }
   },
   "lint-staged": {
-    "app/**/*.{ts,tsx,js,jsx}": [
+    "src/**/*.{ts,tsx,js,jsx}": [
       "npm run lint",
       "npm run format"
     ]
